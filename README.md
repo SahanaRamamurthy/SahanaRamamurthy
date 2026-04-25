@@ -5,7 +5,6 @@
 🎓 Master of Data Science @ RMIT University &nbsp;|&nbsp; 📍 Melbourne, Australia  
 💼 Former Analyst @ Capgemini
 
----
 
 ## 👩‍💻 About Me
 
