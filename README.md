@@ -16,7 +16,7 @@ Currently completing my Master of Data Science at RMIT while working as a Data A
 
 > *I don't just analyse data - I build the systems that make analysis possible.*
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -32,11 +32,11 @@ Currently completing my Master of Data Science at RMIT while working as a Data A
 
 **Tools & Platforms:** &nbsp; Docker · Kubernetes · Git · Azure · Anaconda · MYOB
 
----
+
 
 ## 🚀 Featured Projects
 
----
+
 
 ### 🛡️ Car Insurance Data Migration Platform
 > *End-to-end data migration pipeline for a car insurance dataset*
@@ -51,7 +51,7 @@ Currently completing my Master of Data Science at RMIT while working as a Data A
 
 `Python` `Flask` `PostgreSQL` `SQLAlchemy` `Docker` `Kubernetes` `Pandas` `Chart.js`
 
----
+
 
 ### 🏥 HealthFirst Australia - Revenue Intelligence System
 > *Analytics pipeline diagnosing a 15% revenue decline across 3,000 patients*
@@ -64,7 +64,7 @@ Currently completing my Master of Data Science at RMIT while working as a Data A
 
 `Python` `Machine Learning` `Gradient Boosting` `Plotly` `Pandas` `Scikit-learn`
 
----
+
 
 ### ⚖️ Regulatory Impact Assessment Assistant
 > *AI-powered compliance assistant built during internship at Australian Red Cross Lifeblood*
@@ -78,14 +78,14 @@ Currently completing my Master of Data Science at RMIT while working as a Data A
 
 `Python` `FastAPI` `Claude AI` `TF-IDF` `RAG` `Scikit-learn` `HTML/CSS/JS`
 
----
+
 
 ## 📜 Certifications
 
 - 🏅 Microsoft Azure Fundamentals (AZ-900)
 - 🏅 Problem Solving Through Programming in C - NPTEL
 
----
+
 
 ## 🤝 Connect with Me
 
@@ -93,6 +93,6 @@ Currently completing my Master of Data Science at RMIT while working as a Data A
 [![GitHub](https://img.shields.io/badge/GitHub-SahanaRamamurthy-181717?style=for-the-badge&logo=github)](https://github.com/SahanaRamamurthy)
 [![Email](https://img.shields.io/badge/Email-sahana42ramamurthy@gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:sahana42ramamurthy@gmail.com)
 
----
+
 
 ⭐ *Always open to learning, collaborating, and building things that matter.*
