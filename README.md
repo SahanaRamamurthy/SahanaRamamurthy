@@ -1,24 +1,26 @@
-
-
-## Hi, I'm Sahana Ramamurthy 👋
+# Hi, I'm Sahana Ramamurthy 👋
 
 🎓 Master of Data Science @ RMIT University &nbsp;|&nbsp; 📍 Melbourne, Australia  
-💼 Former Analyst @ Capgemini
-
-
-## 👩‍💻 About Me
-
-I'm a data professional who loves turning messy, real-world data into clean systems and actionable insights.
-
-With a background in engineering and experience across analytics, compliance, and software - I build end-to-end data solutions, from raw data pipelines all the way to interactive dashboards and deployed APIs.
-
-Currently completing my Master of Data Science at RMIT while working as a Data Analyst, with hands-on experience in machine learning, data engineering, and AI-powered applications.
-
-> *I don't just analyse data - I build the systems that make analysis possible.*
+🔍 Turning raw data into decisions that actually matter
 
 
 
-## 🛠️ Tech Stack
+##  About Me
+
+I'm a data professional with a passion for building things end-to-end - not just analysing data, but engineering the pipelines, APIs, and dashboards that bring it to life.
+
+My background spans **software engineering at Capgemini**, a **Data Science internship at Australian Red Cross Lifeblood**, and a **Master of Data Science at RMIT** - giving me a rare mix of technical depth and business thinking.
+
+I work across the full data stack:
+-  **Building** - ETL pipelines, REST APIs, relational databases
+-  **Analysing** - revenue diagnostics, fraud detection, compliance risk
+-  **Communicating** - interactive dashboards, clear visual storytelling
+
+> *I believe the best data work is invisible - the decisions it drives are what people remember.*
+
+
+
+##  Tech Stack
 
 **Languages:** &nbsp; Python · SQL · R · JavaScript · HTML · CSS
 
@@ -30,69 +32,76 @@ Currently completing my Master of Data Science at RMIT while working as a Data A
 
 **Visualisation:** &nbsp; Power BI · Plotly · Chart.js · MS Excel
 
-**Tools & Platforms:** &nbsp; Docker · Kubernetes · Git · Azure · Anaconda · MYOB
+**Tools & Platforms:** &nbsp; Docker · Kubernetes · Git · Azure · Anaconda
 
 
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 
 
-### 🛡️ Car Insurance Data Migration Platform
-> *End-to-end data migration pipeline for a car insurance dataset*
+###  Car Insurance Data Migration Platform
+> *End-to-end data engineering - from messy CSVs to a live analytics dashboard*
 
-🔗 [github.com/SahanaRamamurthy/CarInsurance-DataMigration_Platform](https://github.com/SahanaRamamurthy/CarInsurance-DataMigration_Platform)
+🔗 [View Project](https://github.com/SahanaRamamurthy/CarInsurance-DataMigration_Platform)
 
-- Built a full ETL pipeline cleaning 5 raw CSVs - mixed date formats, inconsistent casing, currency strings, missing values
-- Designed a normalised PostgreSQL schema with foreign key constraints across 5 related tables
-- Exposed 10 REST API endpoints via Flask covering fraud detection, risk analysis, and payment insights
-- Built an interactive analytics dashboard with dark/light theme, live charts, and vehicle lookup
-- Containerised with Docker Compose and wrote production-ready Kubernetes manifests
+Built a complete data migration system simulating what a real insurance company faces when modernising its data infrastructure.
+
+- Designed and ran a full ETL pipeline across 5 datasets - resolving mixed date formats, inconsistent values, currency strings, and missing data
+- Modelled a normalised PostgreSQL relational schema with foreign key integrity across policyholders, vehicles, policies, claims, and payments
+- Built 10 REST API endpoints surfacing fraud detection, high-risk customer identification, late payment tracking, and migration health
+- Delivered an interactive analytics dashboard with dark/light theme toggle, live charts, and vehicle lookup
+- Containerised with Docker Compose and wrote production-ready Kubernetes manifests for cloud deployment
 
 `Python` `Flask` `PostgreSQL` `SQLAlchemy` `Docker` `Kubernetes` `Pandas` `Chart.js`
 
 
 
 ### 🏥 HealthFirst Australia - Revenue Intelligence System
-> *Analytics pipeline diagnosing a 15% revenue decline across 3,000 patients*
+> *Diagnosed a $15% revenue decline and built a machine learning churn model*
 
-🔗 [github.com/SahanaRamamurthy/Healthcare-Revenue-Analytics](https://github.com/SahanaRamamurthy/Healthcare-Revenue-Analytics)
+🔗 [View Project](https://github.com/SahanaRamamurthy/Healthcare-Revenue-Analytics)
 
-- Diagnosed a 15% revenue decline across 3,000 patients and 20,000 appointments - identified Medicare bulk billing as root cause
-- Trained a Gradient Boosting churn model and segmented patients into 7 RFV tiers
-- Designed an interactive Plotly dashboard exported as a fully self-contained HTML file
+A full analytics engagement from problem statement to recommendation - the kind of work that directly shapes business decisions.
 
-`Python` `Machine Learning` `Gradient Boosting` `Plotly` `Pandas` `Scikit-learn`
+- Diagnosed a 15% revenue decline across 3,000 patients and 20,000 appointments - traced root cause to Medicare bulk billing gaps
+- Trained a Gradient Boosting churn model to identify at-risk patients before they disengage
+- Segmented patients into 7 RFV (Recency, Frequency, Value) tiers for targeted retention strategy
+- Delivered a fully self-contained interactive Plotly dashboard - no server required, shareable as a single HTML file
+
+`Python` `Scikit-learn` `Gradient Boosting` `Plotly` `Pandas` `Machine Learning`
 
 
 
-### ⚖️ Regulatory Impact Assessment Assistant
-> *AI-powered compliance assistant built during internship at Australian Red Cross Lifeblood*
+###  Regulatory Impact Assessment Assistant
+> *AI-powered compliance tool - built during internship at Australian Red Cross Lifeblood*
 
-🔗 [github.com/SahanaRamamurthy/regulatory-impact-assessment](https://github.com/SahanaRamamurthy/regulatory-impact-assessment)
+🔗 [View Project](https://github.com/SahanaRamamurthy/regulatory-impact-assessment)
 
-- Built a RAG pipeline using TF-IDF vectorization and cosine similarity to retrieve regulatory clauses from PDF, DOCX, XLSX, and PPTX files
+Built for a real organisation solving a real compliance bottleneck - manual regulatory reviews that took days, now done in minutes.
+
+- Engineered a RAG pipeline using TF-IDF and cosine similarity to retrieve relevant clauses from PDF, DOCX, XLSX, and PPTX regulatory documents
 - Integrated Claude AI to generate structured compliance verdicts with confidence scores, risk levels, and traceable citations
-- Developed a FastAPI backend with SHA-256 authentication, role-based access control, and a super admin dashboard
-- Cut manual compliance review time by ~60%
+- Built a FastAPI backend with SHA-256 authentication, role-based access control, admin dashboard, and audit logging
+- Added web search fallback, voice input, PDF export, and a manual review workflow for edge cases
+- Reduced compliance review time by ~60%
 
 `Python` `FastAPI` `Claude AI` `TF-IDF` `RAG` `Scikit-learn` `HTML/CSS/JS`
 
 
 
-## 📜 Certifications
+##  Certifications
 
 - 🏅 Microsoft Azure Fundamentals (AZ-900)
 - 🏅 Problem Solving Through Programming in C - NPTEL
 
 
 
-## 🤝 Connect with Me
+##  Let's Connect
+
+I'm always open to interesting conversations, collaborations, and opportunities.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sahana%20Ramamurthy-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sahana-ramamurthy-9640b51a5)
 [![GitHub](https://img.shields.io/badge/GitHub-SahanaRamamurthy-181717?style=for-the-badge&logo=github)](https://github.com/SahanaRamamurthy)
 [![Email](https://img.shields.io/badge/Email-sahana42ramamurthy@gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:sahana42ramamurthy@gmail.com)
 
-
-
-⭐ *Always open to learning, collaborating, and building things that matter.*
