@@ -15,9 +15,7 @@ I work across the full data stack:
 -  **Building** - ETL pipelines, REST APIs, relational databases
 -  **Analysing** - revenue diagnostics, fraud detection, compliance risk
 -  **Communicating** - interactive dashboards, clear visual storytelling
-
-> *I believe the best data work is invisible - the decisions it drives are what people remember.*
-
+   
 
 
 ##  Tech Stack
