@@ -21,7 +21,6 @@ I work across the full data stack:
 ## Tech Stack
 
 **Languages:** &nbsp; Python · C · C++ · SQL · R · JavaScript · HTML · CSS
-
 **Data & ML:** &nbsp; Pandas · NumPy · Scikit-learn · Gradient Boosting · Logistic Regression · TF-IDF · RAG Pipelines · Statistical Analysis
 
 **Backend & APIs:** &nbsp; Flask · FastAPI · REST APIs · OpenAI API · Claude AI
