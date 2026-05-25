@@ -30,7 +30,7 @@ I work across the full data stack:
 
 **Visualisation:** &nbsp; Power BI · Plotly Dash · Chart.js · MS Excel · openpyxl
 
-**Tools & Platforms:** &nbsp; Docker · Kubernetes · Git · Azure · Google Cloud Platform · Anaconda
+**Tools & Platforms:** &nbsp; Microsoft 365 · Docker · Kubernetes · Git · Azure · Google Cloud Platform · Anaconda
 
 **Domain Knowledge:** &nbsp; Credit Risk (PD · LGD · EAD) · Mortgage Lending · APRA Regulation · Basel III · Portfolio Monitoring · NIM Analysis · Stress Testing
 
