@@ -7,7 +7,7 @@
 
 I'm a data professional with a passion for building things end-to-end. Not just analysing data, but engineering the pipelines, APIs, and dashboards that bring it to life.
 
-My background spans **software engineering at Capgemini**, a **Data Science internship at Australian Red Cross Lifeblood**, a **Data Analyst role at ORL Reports (ConsultDoc)**, and a **Master of Data Science at RMIT**, giving me a rare mix of technical depth and business thinking.
+My background spans **Analyst at Capgemini**, a **Data Science internship at Australian Red Cross Lifeblood**, a **Data Analyst role at ORL Reports (ConsultDoc)**, and a **Master of Data Science at RMIT**, giving me a rare mix of technical depth and business thinking.
 
 I work across the full data stack:
 - **Building** ETL pipelines, REST APIs, relational databases, and automated workflows
