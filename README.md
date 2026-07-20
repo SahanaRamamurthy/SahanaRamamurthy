@@ -16,6 +16,8 @@ I work across the full data stack:
 
 ## Tech Stack
 
+**Data engineering:** Agentic DB · Databricks · delta lake · Airflow · dbt
+
 **Languages:** &nbsp; Python · SQL · R · C · C++ · JavaScript · HTML · CSS · Astro
 
 **Data & ML:** &nbsp; Pandas · NumPy · Scikit-learn · Gradient Boosting · Logistic Regression · Deep Learning · Neural Networks · NLP · Computer Vision · TF-IDF · RAG Pipelines · Feature Engineering · EDA · Time Series Analysis · Statistical Analysis · Hypothesis Testing
