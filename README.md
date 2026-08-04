@@ -5,18 +5,19 @@
 
 ## About Me
 
-I'm a data professional with a passion for building things end-to-end. Not just analysing data, but engineering the pipelines, APIs, and dashboards that bring it to life.
+I'm a data professional with a passion for building things end-to-end — not just analysing data, but engineering the pipelines, warehouses, and orchestration that bring it to life. My recent focus has been full-stack data engineering: building Medallion-architecture lakehouses on Databricks with dbt, wiring up incremental and SCD-tracked pipelines, and orchestrating the whole thing with Airflow in Docker.
 
 My background spans **Analyst at Capgemini**, a **Data Science internship at Australian Red Cross Lifeblood**, a **Data Analyst role at ORL Reports (ConsultDoc)**, and a **Master of Data Science at RMIT**, giving me a rare mix of technical depth and business thinking.
 
 I work across the full data stack:
+- **Engineering** Medallion-architecture lakehouses, incremental dbt pipelines, SCD2 dimensional models, and Airflow-orchestrated workflows
 - **Building** ETL pipelines, REST APIs, relational databases, and automated workflows
 - **Analysing** revenue diagnostics, fraud detection, compliance risk, and credit risk
 - **Communicating** through interactive dashboards, stakeholder reporting, and clear visual storytelling
 
 ## Tech Stack
 
-**Data engineering:** Agentic DB · Databricks · delta lake · Airflow · dbt
+**Data Engineering:** &nbsp; Databricks (SQL Warehouse & Unity Catalog) · dbt-core · dbt-databricks · dbt_utils · Apache Airflow · Docker & Docker Compose · Medallion Architecture (Bronze/Silver/Gold) · Incremental Models · SCD Type 2 Dimensional Modeling · Star Schema Design · Data Lineage · Data Quality Testing · Delta Lake · Agentic DB
 
 **Languages:** &nbsp; Python · SQL · R · C · C++ · JavaScript · HTML · CSS · Astro
 
@@ -35,6 +36,24 @@ I work across the full data stack:
 **Domain Knowledge:** &nbsp; Credit Risk (PD · LGD · EAD) · APRA Regulation · Basel III · IRB Modelling · Stress Testing · Fraud Detection · Regulatory Compliance
 
 ## Featured Projects
+
+### 🏗️ Walmart Retail Data Platform — Medallion Lakehouse on Databricks
+> *End-to-end data engineering: Bronze → Silver → Gold on Databricks, orchestrated with Airflow in Docker*
+
+🔗 [View Project](https://github.com/SahanaRamamurthy/MYDATAJOURNEY)
+
+A retail data platform built the way I'd build it as a data engineer on the job — incremental loads instead of full reloads, tested transformations, historical tracking of dimension changes, and an orchestrator that runs the whole pipeline on a schedule without manual intervention.
+
+- Designed a 3-layer **Medallion architecture** (Bronze → Silver → Gold) on **Databricks Unity Catalog**, turning raw operational data into analytics-ready, business-consumable tables
+- Built **6 incremental dbt models** using a watermark-based freshness pattern (`MAX(updated_timestamp)`), keeping reprocessing cost flat as data volume grows instead of re-scanning the full source every run
+- Engineered a **wide "One Big Table"** denormalization layer via Jinja-templated dynamic joins, pre-joining six source entities once so every downstream Gold model reads from a single simplified source
+- Implemented **SCD Type 2 dimension snapshots** (5 dimensions) with dbt's timestamp strategy, enabling accurate historical reporting against the dimension values that were true *at the time* of each transaction — not just today's values
+- Built a **Kimball-style star schema** (`fact_orders` + 5 SCD2 dimensions) as the business-consumable analytics layer
+- Wrote **schema and singular data quality tests** (`not_null`, `unique`, `dbt_utils.accepted_range`) to guard the pipeline against bad joins and invalid data
+- Containerized a full **Apache Airflow orchestration environment** (Docker Compose, custom image with dbt baked in) chaining the pipeline end-to-end: source freshness check → `dbt run` → `dbt test` → `dbt snapshot`
+- Debugged and resolved real production-style issues along the way: profile/schema misconfigurations, incremental SQL bugs, join fan-out row explosions, and Airflow DAG import errors
+
+`dbt-core` `dbt-databricks` `Databricks` `Apache Airflow` `Docker` `SQL` `Python` `Medallion Architecture` `SCD Type 2` `Unity Catalog`
 
 ### 🏦 Mortgage Credit Risk Analytics
 > *End-to-end credit risk analytics: IRB modelling, APRA compliance, live BigQuery dashboard*
@@ -79,19 +98,6 @@ A full analytics engagement from problem statement to recommendation, the kind o
 - Delivered a fully self-contained interactive Plotly dashboard with no server required, shareable as a single HTML file
 
 `Python` `Scikit-learn` `Gradient Boosting` `Plotly` `Pandas` `Machine Learning`
-
-### 📋 Regulatory Impact Assessment Assistant
-> *AI-powered compliance tool built during internship at Australian Red Cross Lifeblood*
-
-🔗 [View Project](https://github.com/SahanaRamamurthy/regulatory-impact-assessment)
-
-Built for a real organisation solving a real compliance bottleneck. Manual regulatory reviews that took days now done in minutes. Replaced a 9-person manual review process with a single automated system.
-
-- Built a RAG pipeline using TF-IDF and cosine similarity across 7 regulatory frameworks (HIPAA, GDPR, Australian Privacy Principles), cutting compliance turnaround by ~60%
-- Integrated Claude AI to generate structured verdicts (COMPLIANT, NON-COMPLIANT, PARTIALLY COMPLIANT) with confidence scores and evidence-backed citations across PDF, Word, Excel, and PowerPoint documents
-- Delivered a FastAPI backend with SHA-256 authentication, role-based access, voice input, PDF export, and real-time admin audit logging
-
-`Python` `FastAPI` `Claude AI` `TF-IDF` `RAG` `Scikit-learn` `HTML/CSS/JS`
 
 ## Experience
 
