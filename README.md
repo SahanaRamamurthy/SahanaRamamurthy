@@ -7,7 +7,7 @@
 
 I'm a data professional with a passion for building things end-to-end — not just analysing data, but engineering the pipelines, warehouses, and orchestration that bring it to life. My recent focus has been full-stack data engineering: building Medallion-architecture lakehouses on Databricks with dbt, wiring up incremental and SCD-tracked pipelines, and orchestrating the whole thing with Airflow in Docker.
 
-My background spans **Analyst at Capgemini**, a **Data Science internship at Australian Red Cross Lifeblood**, a **Data Analyst role at ORL Reports (ConsultDoc)**, and a **Master of Data Science at RMIT**, giving me a rare mix of technical depth and business thinking.
+My background spans **Data Analyst at Capgemini**, a **Data Science internship at Australian Red Cross Lifeblood**, a **Data Engineer role at ORL Reports (ConsultDoc)**, and a **Master of Data Science at RMIT**, giving me a rare mix of technical depth and business thinking.
 
 I work across the full data stack:
 - **Engineering** Medallion-architecture lakehouses, incremental dbt pipelines, SCD2 dimensional models, and Airflow-orchestrated workflows
