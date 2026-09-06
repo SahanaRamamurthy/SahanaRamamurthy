@@ -102,10 +102,10 @@ A full analytics engagement from problem statement to recommendation, the kind o
 ## Experience
 
 **IT Service Desk Analyst** at Lincom Consulting *(May 2026 to Present)*  
-**Data Analyst** at ORL Reports Pty Ltd / ConsultDoc *(Nov 2025 to Apr 2026)*  
+**Data Engineer** at ORL Reports Pty Ltd / ConsultDoc *(Nov 2025 to Apr 2026)*  
 **Data Science Intern** at Australian Red Cross Lifeblood *(Aug 2025 to Nov 2025)*  
 **Medical Office Administrator** at ORL Reports Pty Ltd *(Oct 2024 to Nov 2025)*  
-**Analyst** at Capgemini *(Aug 2022 to Jan 2024)*
+**Data Analyst** at Capgemini *(Aug 2022 to Jan 2024)*
 
 ## Certifications
 
